@@ -1,0 +1,133 @@
+section {
+    height: auto;
+    background-color: #302940;  
+}
+#all {
+    padding-bottom: 50px;
+}
+
+
+.titleServicio {
+    color: #fff;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.gridServicio {
+    background-color: #1c1826;
+    position: relative;
+    padding: 25px;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 50px;
+    color: #fff;
+}
+
+.gridServicio .incluye {
+    grid-column: 1 / 3;
+    
+}
+
+.descriptionServicio {
+    padding: 15px;
+    font-size: 1.5em;
+    font-weight: 50;
+    color: #fff;
+}
+
+.listaServicio {
+    list-style-type: square;
+    font-weight: 50;
+}
+
+.incluye h2 {
+    font-size: 2.8em;
+    text-align: center;
+}
+
+.lista2 {
+    margin-left: 30%;
+    list-style-type: square;
+    padding: 15px;
+    font-size: 1.5em;
+    font-weight: 50;
+    color: #fff;
+}
+
+.imgServicio {
+    padding: 15px;
+}
+
+.boton {
+    width: 100%;
+    height: 30px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #904ca8;
+    cursor: pointer;
+    text-align: center;
+}
+.boton p {
+    color: #fff;
+}
+
+.boton:hover {
+    background-color: #cf8de7;
+}
+
+
+.imgServicio img {
+    border-radius: 5px;
+}
+
+/* finish servicio */
+/* Inicio responsive */
+
+@media (max-width: 920px){
+
+    #all {
+        padding-bottom: 10px;
+    }
+
+    .titleServicio {
+        font-size: 1.4em;
+    }
+    
+    .gridServicio {
+        grid-template-columns: 1fr;
+    }
+        
+    .lista2 {
+        margin-left: 0px;
+        padding: 5px;
+        font-size: .9em;
+        font-weight: 90;
+    }
+    
+    .imgServicio {
+        padding: 0px;
+    }
+
+    .incluye h2 {
+        font-size: 1.2em;
+    }
+    
+    .gridServicio .incluye {
+    grid-column: 1 / 1;
+    
+    }
+
+    .imgServicio img {
+        border-radius: 5px;
+    }
+
+    
+    .descriptionServicio {
+    padding: 5px;
+    font-size: .9em;
+    font-weight: 90;
+    }
+
+
+}
